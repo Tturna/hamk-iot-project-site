@@ -5,8 +5,12 @@
         <script type="text/javascript" src="client.js"></script>
     </head>
     <body>
-        <h1>lmao</h1>
+        <h1>Control Panel</h1>
         <button onclick="fetch_onMessage()">On</button><br></br>
-        <button onclick="fetch_offMessage()">Off</button>
+        <button onclick="fetch_offMessage()">Off</button><br></br>
+        <button onclick="close_connection()">Close Connection</button>
+        <p><i>(Requires web server restart to reopen connection)</i></p>
+        <br>
+        <p id="status"></p>
     </body>
 </html>
